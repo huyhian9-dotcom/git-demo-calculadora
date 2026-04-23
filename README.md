@@ -3,6 +3,8 @@
 Projeto didático para aula de **Versionamento de Código**.
 A `main` tem um **bug proposital** simples: o logo no topo da página não carrega porque o nome do arquivo no HTML tem um caractere a mais. Sua missão é encontrar o bug pelo **DevTools** e corrigir usando o fluxo Git completo.
 
+> 🎓 **É aluno da aula?** Siga o passo-a-passo completo em **[GUIA_ALUNO.md](./GUIA_ALUNO.md)** — inclui Fork, Pull Request e troubleshooting.
+
 ---
 
 ## 🎯 O que você vai praticar
