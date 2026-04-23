@@ -45,7 +45,7 @@ def add_faixa_acento(slide, topo=True):
 
 
 def add_texto(slide, texto, left, top, width, height, tamanho=18, bold=False,
-              cor=COR_TEXTO, alinhar=PP_ALIGN.LEFT, fonte="Calibri"):
+              cor=COR_TEXTO, alinhar=PP_ALIGN.LEFT, fonte="Arial"):
     caixa = slide.shapes.add_textbox(left, top, width, height)
     tf = caixa.text_frame
     tf.word_wrap = True
@@ -93,7 +93,7 @@ def add_codigo(slide, linhas, left, top, width, height, tamanho=16, fg=COR_CODIG
             linha, cor_linha = linha
         run = p.add_run()
         run.text = linha if linha else " "
-        run.font.name = "Consolas"
+        run.font.name = "Courier New"
         run.font.size = Pt(tamanho)
         run.font.color.rgb = cor_linha
 
@@ -113,7 +113,7 @@ def add_bullet(slide, itens, left, top, width, height, tamanho=18):
         run.text = f"•  {item}"
         run.font.size = Pt(tamanho)
         run.font.color.rgb = COR_TEXTO
-        run.font.name = "Calibri"
+        run.font.name = "Arial"
 
 
 def add_rodape(slide, numero, total):
@@ -371,7 +371,7 @@ def build():
     add_texto(slide,
         "clone  →  branch  →  fix  →  commit  →  push  →  PR  →  merge",
         Inches(0.5), Inches(3.9), Inches(12.3), Inches(0.7),
-        tamanho=22, cor=COR_ACENTO, alinhar=PP_ALIGN.CENTER, fonte="Consolas",
+        tamanho=22, cor=COR_ACENTO, alinhar=PP_ALIGN.CENTER, fonte="Courier New",
     )
     add_texto(slide, "Perguntas?",
         Inches(0.5), Inches(5.2), Inches(12.3), Inches(0.8),
@@ -379,7 +379,7 @@ def build():
     )
     add_texto(slide, "github.com/huyhian9-dotcom/git-demo-calculadora",
         Inches(0.5), Inches(6.2), Inches(12.3), Inches(0.5),
-        tamanho=14, cor=RGBColor(0x88, 0x88, 0x99), alinhar=PP_ALIGN.CENTER, fonte="Consolas",
+        tamanho=14, cor=RGBColor(0x88, 0x88, 0x99), alinhar=PP_ALIGN.CENTER, fonte="Courier New",
     )
 
     saida = Path(__file__).parent / "apresentacao.pptx"
