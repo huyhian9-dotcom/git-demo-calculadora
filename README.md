@@ -1,3 +1,15 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" alt="Git">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white" alt="Node.js">
+</p>
+
+> **🇧🇷** Projeto didático para praticar o fluxo Git completo (branch → commit → push → Pull Request) caçando um bug proposital. · **🇺🇸** A hands-on teaching project to practice the full Git workflow (branch → commit → push → Pull Request) by hunting an intentional bug.
+>
+> Parte do meu portfólio · Part of my portfolio — [@huyhian9-dotcom](https://github.com/huyhian9-dotcom)
+
+---
+
 # 🧮 Calculadora com Bug — Demo de Versionamento com Git
 
 Projeto didático para aula de **Versionamento de Código**.
